@@ -4,21 +4,18 @@ Add `int max_of_four(int a, int b, int c, int d)` here.
 */
 
 int main() {
-    int a, b, c, d, ans=a;
+    int a, b, c, d, ans;
     scanf("%d %d %d %d", &a, &b, &c, &d);
-    if(a>b){ans=a;
-    }else if(a<b){
-        ans=b;
+    ans = a;
+    if(ans < b) {
+        ans = b;
     }
-    if(b>c){ans=b;
-    }else if(b<c){
-        ans=c;
+    if(ans < c) {
+        ans = c;
     }
-    if(c>d){ans=c;
-    }else if(c<d){
-        ans=d;
+    if(ans < d) {
+        ans = d;
     }
-    printf("%d", ans);
-    
+    printf("%d",ans);
     return 0;
 }
