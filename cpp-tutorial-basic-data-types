@@ -1,0 +1,18 @@
+#include <iostream>
+#include <cstdio>
+using namespace std;
+
+int main() 
+{
+    // Complete the code.
+    int a;
+    long int l;
+    char ch;
+    float f;
+    double d;
+    //cin>>a>>l>>ch>>f>>d;
+   //cout<<a<<endl<<l<<endl<<ch<<endl<<f<<endl<<d;
+   scanf("%d %ld %c %f %lf",&a, &l, &ch, &f, &d);
+   printf("%d\n%ld\n%c\n%0.3f\n%lf\n",a, l, ch, f, d);
+    return 0;
+}
